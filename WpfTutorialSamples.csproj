@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="component\**" />
+    <Compile Remove="WpfTutorialSamples\component\**" />
+    <EmbeddedResource Remove="component\**" />
+    <EmbeddedResource Remove="WpfTutorialSamples\component\**" />
+    <None Remove="component\**" />
+    <None Remove="WpfTutorialSamples\component\**" />
+    <Page Remove="component\**" />
+    <Page Remove="WpfTutorialSamples\component\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="WpfTutorialSamples\" />
+  </ItemGroup>
+
+</Project>
