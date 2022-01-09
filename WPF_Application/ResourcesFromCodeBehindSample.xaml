@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfTutorialSamples.WPF_Application.ResourcesFromCodeBehindSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.WPF_Application"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="ResourcesFromCodeBehindSample" Height="175" Width="250">
+    <Window.Resources>
+        <sys:String x:Key="strWindow">Hello, Window world!</sys:String>
+    </Window.Resources>
+    <DockPanel Margin="10" Name="pnlMain">
+        <DockPanel.Resources>
+            <sys:String x:Key="strPanel">Hello, Panel world!</sys:String>
+        </DockPanel.Resources>
+
+        <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">
+            <Button Name="btnClickMe" Click="btnClickMe_Click">Click me!</Button>
+        </WrapPanel>
+
+        <ListBox Name="lbResult" />
+    </DockPanel>
+</Window>
