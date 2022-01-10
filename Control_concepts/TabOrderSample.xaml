@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfTutorialSamples.Control_concepts.TabOrderSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.Control_concepts"
+        mc:Ignorable="d"
+        Title="TabOrderSample" Height="250" Width="400">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label>First name:</Label>
+            <TextBox TabIndex="0" />
+            <Label>Street name:</Label>
+            <TextBox TabIndex="2" />
+            <Label>City:</Label>
+            <TextBox TabIndex="5" IsReadOnly="True" IsTabStop="False" Background="Gainsboro" />
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Label>Last name:</Label>
+            <TextBox TabIndex="1" />
+            <Label>Zip Code:</Label>
+            <TextBox TabIndex="4" />
+        </StackPanel>
+        <Button Grid.Row="1" HorizontalAlignment="Right" Width="80">Add</Button>
+        <Button Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Width="80">Cancel</Button>
+    </Grid>
+</Window>

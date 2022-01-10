@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfTutorialSamples.Basic_controls.ImageControlCodeBehindSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.Basic_controls"
+        mc:Ignorable="d"
+        Title="ImageControlCodeBehindSample" Height="300" Width="400">
+    <StackPanel>
+        <WrapPanel Margin="10" HorizontalAlignment="Center">
+            <Button Name="btnLoadFromFile" Margin="0,0,20,0" Click="BtnLoadFromFile_Click">Load from File...</Button>
+            <Button Name="btnLoadFromResource" Click="BtnLoadFromResource_Click">Load from Resource</Button>
+        </WrapPanel>
+        <Image Name="imgDynamic" Margin="10"  />
+    </StackPanel>
+</Window>

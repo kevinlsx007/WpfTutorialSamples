@@ -18,7 +18,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Images\accept.png" />
+    <None Remove="Images\cancel.png" />
+    <None Remove="Images\folder.png" />
+    <None Remove="Images\help.png" />
+    <None Remove="Images\page_white.png" />
+    <None Remove="Images\question.png" />
+    <None Remove="Images\white_bengal_tiger.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="WpfTutorialSamples\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\accept.png" />
+    <Resource Include="Images\cancel.png" />
+    <Resource Include="Images\folder.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\page_white.png" />
+    <Resource Include="Images\question.png" />
+    <Resource Include="Images\white_bengal_tiger.jpg" />
   </ItemGroup>
 
 </Project>
