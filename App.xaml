@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:WpfTutorialSamples"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="Panels/GridContactForm.xaml">
+             StartupUri="User_Controls/LimitedInputSample.xaml">
     <Application.Resources>
         <sys:String x:Key="strApp">Hello, Application world!</sys:String>
     </Application.Resources>
