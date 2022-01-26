@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:WpfTutorialSamples"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="Common_interface_controls/StatusBarAdvancedSample.xaml">
+             StartupUri="Rich_text_controls/RichTextEditorSample.xaml">
     <Application.Resources>
         <sys:String x:Key="strApp">Hello, Application world!</sys:String>
+        <Style TargetType="FlowDocument">
+            <Setter Property="IsOptimalParagraphEnabled" Value="True" />
+            <Setter Property="IsHyphenationEnabled" Value="True" />
+        </Style>
     </Application.Resources>
 </Application>
