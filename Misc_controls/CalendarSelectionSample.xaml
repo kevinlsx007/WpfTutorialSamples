@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfTutorialSamples.Misc_controls.CalendarSelectionSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.Misc_controls"
+        mc:Ignorable="d"
+        Title="CalendarSelectionSample" Height="280" Width="220">
+    <StackPanel>
+        <Calendar Name="cldSample" SelectionMode="MultipleRange" SelectedDate="10.10.2013" />
+        <Label>Selected date:</Label>
+        <TextBox Text="{Binding ElementName=cldSample, Path=SelectedDate, StringFormat=d, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+</Window>

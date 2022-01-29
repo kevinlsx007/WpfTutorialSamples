@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfTutorialSamples.Misc_controls.ExpanderSimpleSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.Misc_controls"
+        mc:Ignorable="d"
+        Title="ExpanderSimpleSample" Height="250" Width="300">
+    <Expander>
+        <TextBlock TextWrapping="Wrap" FontSize="18">  
+    Here we can have text which can be hidden/shown using the built-in functionality of the Expander control.
+        </TextBlock>
+    </Expander>
+</Window>
