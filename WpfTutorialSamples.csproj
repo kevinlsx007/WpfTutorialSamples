@@ -21,6 +21,9 @@
     <None Remove="Images\accept.png" />
     <None Remove="Images\arrow_left.png" />
     <None Remove="Images\arrow_right.png" />
+    <None Remove="Images\bullet_blue.png" />
+    <None Remove="Images\bullet_green.png" />
+    <None Remove="Images\bullet_red.png" />
     <None Remove="Images\cancel.png" />
     <None Remove="Images\copy.png" />
     <None Remove="Images\cut.png" />
@@ -48,6 +51,9 @@
     <Resource Include="Images\accept.png" />
     <Resource Include="Images\arrow_left.png" />
     <Resource Include="Images\arrow_right.png" />
+    <Resource Include="Images\bullet_blue.png" />
+    <Resource Include="Images\bullet_green.png" />
+    <Resource Include="Images\bullet_red.png" />
     <Resource Include="Images\cancel.png" />
     <Resource Include="Images\copy.png" />
     <Resource Include="Images\cut.png" />
