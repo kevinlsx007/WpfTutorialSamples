@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:WpfTutorialSamples"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="ItemsControl/ComboBoxSelectionSample.xaml">
+             StartupUri="ListView_control/FilteringSample.xaml">
     <Application.Resources>
         <sys:String x:Key="strApp">Hello, Application world!</sys:String>
         <Style TargetType="FlowDocument">

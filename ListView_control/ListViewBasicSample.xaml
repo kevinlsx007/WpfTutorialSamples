@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfTutorialSamples.ListView_control.ListViewBasicSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.ListView_control"
+        mc:Ignorable="d"
+        Title="ListViewBasicSample" Height="200" Width="200">
+    <Grid>
+        <ListView Margin="10">
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/WpfTutorialSamples;component/Images/bullet_green.png" Width="16" Margin="0,0,5,0" />
+                    <TextBlock>Green</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/WpfTutorialSamples;component/Images/bullet_blue.png" Width="16" Margin="0,0,5,0" />
+                    <TextBlock>Blue</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem IsSelected="True">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/WpfTutorialSamples;component/Images/bullet_red.png" Width="16" Margin="0,0,5,0" />
+                    <TextBlock>Red</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+        </ListView>
+    </Grid>
+</Window>
